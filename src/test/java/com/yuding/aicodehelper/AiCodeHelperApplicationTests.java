@@ -15,6 +15,7 @@ class AiCodeHelperApplicationTests {
 
     @Test
     void chat() {
+        System.out.println("开始测试");
         aiCodeHelper.chat("写一个java程序，打印1到10的偶数");
     }
 
